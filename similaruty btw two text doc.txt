@@ -1,3 +1,12 @@
+Aim: Write a program to compute similarity. between two text document.
+
+In data analysis, Cosine similarity is a measure of similarity between two sequences of numbers. For defining it, the sequences are viewed as vectors in an inner product space, and the Cosine similarity is defined as the cosine similarity is defined as cosine of the angle between them, that is, the dot product of the vectors divided by the product of their lengths. It follows that the cosine similarity does not depend on the magnitudes of vectors, but only on their angle. The cosine similarity always belongs to the interval [1,1]. for example, two proportional vectors have a cosine similarity of I, two orthogonal vectors have a similarity of 0, & two opposite Vectors have similarity of -1, The cosine similarity is particularly used in positive space, where the out come neatly is neat!. bounded in [0,1].
+
+For example, in information retrival of text mining each word is assigned a different coordinate and a document is represented by vector of numbers of occurences of each word in a document.
+
+Cosine similarity then gives a measure of how similar two documents are likely to be, in terms. useful of their subject matter and independently of length of the
+
+
 import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
