@@ -1,3 +1,12 @@
+Aim: Waite a program to parse, XML text, generate web graph and compute topic specific page Rank."
+
+Theory:-
+XML: XML stands for extensible markup language. It was design to stored and transport. dot it was designed to be both human and machine. readable that's why the design goals of XML parsing XML.
+
+we have created parse XML() function to Parse XML file we know that XML is an inherently hierarchical data format and the most natural way to represent it with tree.
+
+The webgraph describe the directed links. between pages of the world wide web. A graph in general consists of seneral vertices lines Some pair Connected by edges a disected graph edges are directed. qrcs
+
 import networkx as nx
 import matplotlib.pyplot as plt
 from xml.dom.minidom import parse
