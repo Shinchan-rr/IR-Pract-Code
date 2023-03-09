@@ -1,3 +1,12 @@
+Aim: Implement Dynamic programming algorithm for computing the edit distance between staings s1 $52.
+
+Theory:
+The Levenshtein distance is a string metric for measuring difference between two sequences. Informally, the levenshtein distance between two words is the minimum number of single- character edits (ie insertions, deletions substitutions) required to change one wood into the other It is named after vladimir Levenshtein, who considered this distance in 1965. Levenshtein distance may also be reffered to as edit distance, although it may also denote a larger family of distance metrices. It is closely related to pairwise strin alignments. string
+
+Definition:
+Mathematically, the Levenshtein distance, between two strings a, b length lal and lb) respectively) is given by leva, bla), 1b), where:
+
+
 import numpy as np
 def levenshtein(s1, s2):
 if (s1 == ""):
