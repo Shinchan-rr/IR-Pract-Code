@@ -1,3 +1,23 @@
+Aim: write a program to demonstrate bitwise operation.
+
+Theory: Bitwise operators operate to one ore more bit pattern or level of individual bits. binary numbers at the
+
+•Bitwise AND: Text two equal length binary represent to and perform logical AND operation on each pair of the bit. If both bits in compare operator, the result is one (1) = 1)
+
+Bitwise OR (1): A bitwise OR text two bits of equal length & perform logical op (1) operations on each pair of bits. If both bits zero then result is zero.
+
+•Bitwise NOTLI): A bitwise NOT is unary operation that perform logical negotiation on each bit.
+
+→sklearn feature extraction text → It Converts a collection of text document to counts.
+
+matax of token → CountVectorizer ():
+
+This provide a simple to both tokenized. a-collection text document to not know
+
+→Fit transform(): This method applied feature e extraction objects such as Count
+
+
+
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 corpus = [
