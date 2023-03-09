@@ -1,3 +1,14 @@
+Aim: Write a program to implement simple Crawler.
+
+Theory
+•Web Crawler
+
+web crawler is an internet bot that is used for web indexing in world wide web. All types of search engines use web crauiter to provide efficient results.
+
+Actually it collects all or some specific hyperlinks and html content from other websites and preview them in a suitable manner.
+
+when there are hug number of links to crowl, even the largest crawler fails. For this reason search engines in early 2000 were bad at. Pronding relevant results, but how this Process has improved much & proper results. are given in an instance.
+
 import logging
 from urllib.parse import urljoin
 import requests
