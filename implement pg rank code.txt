@@ -15,6 +15,26 @@ to page A,
 •CCT) is the number of outbound links on Page Ti and dis a damping factor which can be set
 
 between 0 and 1.
+A small web consisting of three Pages A 18 & c, whereby page A links to the pages B & C, Page B links to page & links to page C link's to page A. the damping factor d is usually set to 0.85, but to keep the calculation simple set it to O.S. we
+
+The extract value of damping factor d admittedly has effects an pagebank, but it does not influence the fundamental principles of pagesank so, we get the following equations for pageRank Calculations.
+
+PR(A)=0.5+0.5PR (C); PRC B) = 0.5+0.5 (PR (A)/2)
+
+PRCO) = 0.5+0.5 (PR(A)/2+PR (B))
+
+These equations can easily to solved. we get
+
+the following PageRank Values for single page PRCA) = 1 = 1.076292308
+
+PR(B) = 10 = 0.76923077 13
+
+PRCC) = 15 A 1.15384615
+
+It is obvious that the sum of all pages Page Rank' is 3 and thus equals the total number of web pages. As shown above this as abore not a example. specific result for our simple
+
+
+
 
 import numpy as np
 from scipy.sparse import csc_matrix
