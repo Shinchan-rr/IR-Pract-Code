@@ -1,3 +1,21 @@
+Alm: Implement PageRank Algorithm
+
+Theory The page sank algorithm:
+
+The original PageRank algorithm was described. by Lawrence Page Publications. It us and Sergey given by Bain in several.
+
+PRLA) = (1-d)+d(PR (TI)/C (TI) +. +(PR (Tn)) ((Tn))
+
+where
+
+• PR(A) is the PageRank of Page A • PR(TI) is the PageRank of Pages Ti which link
+
+to page A,
+
+•CCT) is the number of outbound links on Page Ti and dis a damping factor which can be set
+
+between 0 and 1.
+
 import numpy as np
 from scipy.sparse import csc_matrix
 from fractions import Fraction
