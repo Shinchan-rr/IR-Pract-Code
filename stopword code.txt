@@ -1,3 +1,15 @@
+Aim: write a program for Pre-Processing of text Document: stop word Removal a
+
+Theory:-
+The process of inverting data of something a computer can understand is refered to as Pre-Processing one of the major forms of Pare-processing is to filter out data useless in nature all language useless words (data) are to as stop word."
+
+what are stop words? stop words:
+
+A stop word is a Command, used word (such as "the" "a", "an", "in") that a search engine has been programmed to ignore both when engin retriving the as the result of a search query.
+
+we would not want these words to take up space in our database or taking up valueable processing time for this one we Can remove then easily by storing a list of word that you consider to stop word. NITK (Natural language tool kit) in python has a list of stopword stored in 16 different languages you can find them in directory
+
+
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 example_sent="we are the students of ckt college"
